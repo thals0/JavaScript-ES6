@@ -9,18 +9,18 @@
 // person.sayHi();
 
 // this & arrow function 연습문제 2
-let dataSet = {
-  data: [1, 2, 3, 4, 5],
-};
+// let dataSet = {
+//   data: [1, 2, 3, 4, 5],
+// };
 
-dataSet.plus = function () {
-  let sum = 0;
-  this.data.forEach(function (a) {
-    sum += a;
-  });
-  console.log(sum);
-};
-dataSet.plus();
+// dataSet.plus = function () {
+//   let sum = 0;
+//   this.data.forEach(function (a) {
+//     sum += a;
+//   });
+//   console.log(sum);
+// };
+// dataSet.plus();
 
 // this & arrow function 연습문제 3
 // setTimeout(function () {
